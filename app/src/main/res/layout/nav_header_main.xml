@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:contentDescription="@null"
         android:scaleType="centerCrop"
-        android:src="@drawable/drawerCover" />
+        android:src="@drawable/drawer_cover" />
 
     <LinearLayout
         android:layout_width="wrap_content"
