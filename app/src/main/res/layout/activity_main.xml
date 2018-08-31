@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
             android:layout_margin="16dp"
-            android:src="@drawable/ic_action_refresh" />
+            app:srcCompat="@drawable/ic_action_refresh" />
     </android.support.design.widget.CoordinatorLayout>
 
     <android.support.design.widget.NavigationView
