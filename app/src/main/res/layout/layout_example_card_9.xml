@@ -65,7 +65,7 @@
             android:paddingEnd="8dp"
             android:paddingStart="8dp"
             android:text="@string/action_1"
-            android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+            android:textColor="@color/colorAccent"
             app:layout_constraintBottom_toTopOf="@+id/supporting_text"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sub_text" />

@@ -228,7 +228,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onBadgeClicked(view: View) {
-        scrollView.smoothScrollTo(0, 0)
+        scrollView.scrollTo(0, 0)
         hideBadge()
     }
 

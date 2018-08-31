@@ -41,14 +41,14 @@
 
         <ImageView
             android:id="@+id/media_image"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
             android:layout_marginEnd="16dp"
             android:layout_marginTop="16dp"
             android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/image_5" />
+            app:srcCompat="@drawable/image_3" />
 
         <Button
             android:id="@+id/action_button_1"
@@ -60,7 +60,7 @@
             android:paddingEnd="8dp"
             android:paddingStart="8dp"
             android:text="@string/action_1"
-            android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+            android:textColor="@color/colorAccent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/media_image" />
